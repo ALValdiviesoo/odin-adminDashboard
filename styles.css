@@ -7,3 +7,36 @@ body {
   margin: 0;
   box-sizing: border-box;
 }
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  height: 100%;
+}
+
+.leftSide {
+
+}
+
+.rightSide {
+  display: grid;
+  grid-template-rows: 1fr 5fr;
+}
+
+.mainContent {
+  height: 100%;
+}
+
+.navbar {
+  height: 100%;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+.topSection {
+
+}
+
+.bottomSection {
+
+}
