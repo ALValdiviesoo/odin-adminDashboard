@@ -1,1 +1,1 @@
-# odin-adminDashboard
+This is the final project for intermediate HTML and CSS section: Admin Dashboard. This would focus on grid usage.
