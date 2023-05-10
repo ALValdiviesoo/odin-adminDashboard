@@ -15,7 +15,7 @@ body {
 }
 
 .leftSide {
-
+  background-color: #FF69B4;
 }
 
 .rightSide {
@@ -39,4 +39,31 @@ body {
 
 .bottomSection {
 
+}
+
+.dashboard {
+  height: 65%;
+  display: grid;
+  grid-template-rows: 1fr 4fr 3fr;
+  color: white;
+}
+
+.logos {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  overflow: inherit;
+}
+
+.logos span {
+  font-size: 35px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.logos img {
+  height: auto;
+  max-width: 50px;
+  margin-left: 30px;
 }
