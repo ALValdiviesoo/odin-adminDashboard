@@ -26,6 +26,10 @@ body {
 
 .mainContent {
   height: 100%;
+  background-color: #E3E9F0;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  display: grid;
+  grid-template-columns: 2.5fr 1fr;
 }
 
 .navbar {
@@ -188,4 +192,69 @@ body {
   background-color: white;
   color: #FF69B4;
   cursor: pointer;
+}
+
+.leftMainContent {
+  display: grid;
+  grid-template-rows: 1fr 12fr;
+}
+
+.titleProject {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.titleProject p {
+  font-weight: bold;
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+.projectCards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.cards {
+  margin: 20px 20px;
+  background-color: white;
+  border-radius: 8px;
+  display: grid;
+  grid-template-columns: 1fr 25fr;
+}
+
+.colorSide {
+  background-color: #00FFFF;
+  border-radius: 8px;
+}
+
+.cardContent {
+  display: grid;
+  grid-template-rows: 2.5fr 1fr;
+}
+
+.cardTitle {
+  font-weight: bold;
+  margin-top: 25px;
+  margin-left: 10px;
+  font-weight: 20px;
+}
+
+.cardSubtitle {
+  color: gray;
+  margin-left: 10px;
+}
+
+.cardButtons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.cardIcons {
+  height: auto;
+  max-width: 23px;
+  margin-right: 15px;
 }
