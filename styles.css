@@ -6,6 +6,7 @@ body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 
 .container {
@@ -34,11 +35,21 @@ body {
 }
 
 .topSection {
+  background-color: white;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  place-content: center;
+}
 
+.searchIcon {
+  height: auto;
+  max-width: 25px;
+  margin-left: 50px;
+  margin-right: 0px;
 }
 
 .bottomSection {
-
+  background-color: pink;
 }
 
 .dashboard {
@@ -97,4 +108,41 @@ body {
   font-size: 18px;
   height: 60%;
   margin-top: 65px;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+#searchbar {
+  width: 800px;
+  height: 30px;
+  border: none;
+  background-color: #E3E8F1;
+  border-radius: 15px;
+  padding-left: 15px;
+}
+
+.notifIcon {
+  height: auto;
+  max-width: 25px;
+}
+
+.profileIcon  {
+  height: auto;
+  max-width: 50px;
+}
+
+.profile {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  margin-left: 80px;
+}
+
+.profileName {
+  font-size: 20px;
+  font-weight: bold;
 }
