@@ -354,3 +354,8 @@ body {
 .bio {
   color: gray;
 }
+
+.leftIcon:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
