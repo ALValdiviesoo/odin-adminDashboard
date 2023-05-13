@@ -264,10 +264,6 @@ body {
   grid-template-rows: 1fr 5.5fr;
 }
 
-.trending {
-  border: #FF69B4 1px solid;
-}
-
 .rightMainContent {
   display: grid;
   grid-template-rows: 1fr 1fr;
@@ -312,4 +308,49 @@ body {
 
 .announcementRow {
   padding-left: 25px;
+}
+
+.trending {
+  display: grid;
+  grid-template-rows: 1fr 7fr;
+}
+
+.trendingHead p {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.trendingHead {
+  display: flex;
+  align-items: center;
+}
+
+.trendingContainer {
+  margin-bottom: 20px;
+  background-color: white;
+  border-radius: 8px;
+  width: 90%;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.trendingIcon {
+  height: auto;
+  max-width: 60px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.trendingNames {
+  margin-top: 30px;
+  font-size: 14px;
+}
+
+.trendingRow {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+
+.bio {
+  color: gray;
 }
